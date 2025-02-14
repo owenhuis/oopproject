@@ -1,7 +1,0 @@
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\bin\Debug\pokemonBattleSim.exe.config
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\bin\Debug\pokemonBattleSim.exe
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\bin\Debug\pokemonBattleSim.pdb
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\obj\Debug\pokemonBattleSim.csproj.AssemblyReference.cache
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\obj\Debug\pokemonBattleSim.csproj.CoreCompileInputs.cache
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\obj\Debug\pokemonBattleSim.exe
-C:\school\code\bovenbouw\oopproject\pokemonBattleSim\obj\Debug\pokemonBattleSim.pdb

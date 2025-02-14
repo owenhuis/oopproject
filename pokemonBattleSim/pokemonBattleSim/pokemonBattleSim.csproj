@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D34ED22B-428C-4F23-9E6B-BE483C3CEBAC}</ProjectGuid>
+    <ProjectGuid>{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>pokemonBattleSim</RootNamespace>
     <AssemblyName>pokemonBattleSim</AssemblyName>

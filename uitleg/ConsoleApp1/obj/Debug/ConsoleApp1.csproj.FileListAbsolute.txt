@@ -5,3 +5,10 @@ C:\school\code\bovenbouw\oopproject\les_1_uitleg\ConsoleApp1\obj\Debug\ConsoleAp
 C:\school\code\bovenbouw\oopproject\les_1_uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\school\code\bovenbouw\oopproject\les_1_uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\school\code\bovenbouw\oopproject\les_1_uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\school\code\bovenbouw\oopproject\uitleg\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
