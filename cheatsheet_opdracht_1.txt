@@ -1,0 +1,11 @@
+cheatsheet:
+
+why would you want to write your code in a object-oriented programming language?
+
+reason nr.1:
+
+	you can write de code in many different ways there is not one solution it doesn't mather how you write it in what order or anything like that just if it works it works 
+
+reason nr.2:
+
+	
