@@ -1,23 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace trein_maken
 {
+    public class Person
+    {
+        public string firstName;
+        public string lastName;
+        public int age;
 
-    class Train
+        public Person(string firstName, string lastName, int age)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+        }
+
+        public void bemanTrein(Train trein)
+        {
+            // neem controlle over de trein
+            trein.giveControl(this);
+        }
+    }
+    public class Train
     {
         public int aantalWielen;
         public int aantalPlaatsen;
-        public string conducteur;
-        
-        public Train(int wielAantal, int plaatsAantal, string conducteurNaam)
+        public Person conducteur;
+        public Train(int wielAantal, int plaatsAantal)
         {
             this.aantalWielen = wielAantal;
             this.aantalPlaatsen = plaatsAantal;
-            this.conducteur = conducteurNaam;
         }
         public int rijden()
         {
@@ -27,14 +39,25 @@ namespace trein_maken
         {
             return 0;
         }
+
+        public void giveControl(Person nieuweConducteur)
+        {
+            this.conducteur = nieuweConducteur;
+        }
     }
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            Train eersteTrein = new Train(wielAantal:7, plaatsAantal:30, conducteurNaam:"Eugene");
-            Train tweedeTrein = new Train(wielAantal: 18, plaatsAantal: 36, conducteurNaam: "Henk");
+            Person persoon1 = new Person(firstName: "kees", lastName: "panda", age: 3);
+
+            Train eersteTrein = new Train(wielAantal:7, plaatsAantal:30);
+            Train tweedeTrein = new Train(wielAantal: 18, plaatsAantal: 36);
+
+            persoon1.bemanTrein(eersteTrein);
+
+            Console.WriteLine(eersteTrein.conducteur.firstName);
 
             Console.WriteLine(eersteTrein.aantalWielen);
             Console.WriteLine(eersteTrein.aantalPlaatsen);

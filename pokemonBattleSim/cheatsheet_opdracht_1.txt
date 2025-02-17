@@ -6,6 +6,5 @@ reason nr.1:
 
 	you can write de code in many different ways there is not one solution it doesn't mather how you write it in what order or anything like that just if it works it works 
 
-reason nr.2:
-
-	
+What's the difference between a class and an object?
+	an object is like a undefined variable because it can be a string or an int or a list it doesn't really mather, and a class is a place where you put your different variables and put them into one variable
