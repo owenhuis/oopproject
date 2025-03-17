@@ -1,24 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace pokemonBattleSim.classes
 {
     class Charmander
     {
-        public string pokemon;
-        public string type;
-        public string weakness;
-        public string naam;
+        public string Nickname { get; private set; }
+        public string Strength { get; private set; }
+        public string Weakness { get; private set; }
 
-        public Charmander(string pokemon, string type, string weakness, string naam)
+        public Charmander(string nickname, string strength, string weakness)
         {
-            this.pokemon = pokemon;
-            this.type = type;
-            this.weakness = weakness;
-            this.naam = naam;
+            Nickname = nickname;
+            Strength = strength;
+            Weakness = weakness;
+        }
+
+        public string GetName()
+        {
+            return Nickname;
+        }
+
+        public string BattleCry()
+        {
+            return $"{Nickname} roept: CHARRRRR!";
         }
     }
 }

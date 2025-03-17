@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|c:\\school\\code\\bovenbouw\\oopproject\\uitleg\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|c:\\school\\code\\bovenbouw\\oopproject\\uitleg\\consoleapp1\\classes\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\classes\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\consoleapp1\\classes\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\classes\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\consoleapp1\\classes\\vervoersmiddel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\classes\\vervoersmiddel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\consoleapp1\\classes\\tram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234A3D02-2934-45EF-A9E5-8E436F30EA08}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\classes\\tram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T12:34:27.132Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vervoersmiddel.cs",
+              "DocumentMoniker": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\vervoersmiddel.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\classes\\vervoersmiddel.cs",
+              "ToolTip": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\vervoersmiddel.cs",
+              "RelativeToolTip": "ConsoleApp1\\classes\\vervoersmiddel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:04:12.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tram.cs",
+              "DocumentMoniker": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\tram.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\classes\\tram.cs",
+              "ToolTip": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\tram.cs",
+              "RelativeToolTip": "ConsoleApp1\\classes\\tram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:04:11.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "train.cs",
+              "DocumentMoniker": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\train.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\classes\\train.cs",
+              "ToolTip": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\train.cs",
+              "RelativeToolTip": "ConsoleApp1\\classes\\train.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:04:09.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "person.cs",
+              "DocumentMoniker": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\person.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\classes\\person.cs",
+              "ToolTip": "C:\\school\\code\\bovenbouw\\oopproject\\uitleg\\ConsoleApp1\\classes\\person.cs",
+              "RelativeToolTip": "ConsoleApp1\\classes\\person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:04:08.664Z",
               "EditorCaption": ""
             }
           ]

@@ -3,21 +3,24 @@ using pokemonBattleSim.classes;
 
 namespace pokemonBattleSim
 {
-
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Je hebt een Charmander ontvangen!");
-            Console.WriteLine("Welke naam wil je geven aan Charmander?");
-            string naam = Console.ReadLine();
+            Console.WriteLine("Welkom bij Pokémon Battle Sim!");
 
-            Charmander pokémon = new Charmander("Charmander", "Fire", "Water", naam);
+            Trainer trainer1 = CreateTrainer(1);
+            Trainer trainer2 = CreateTrainer(2);
 
-            Console.WriteLine("Je hebt een " + pokémon.pokemon + "met de naam " + pokémon.naam + "Dat is een " + pokémon.type + "type en is zwak tegen" + pokémon.weakness + "type.");
+            Game game = new Game(trainer1, trainer2);
+            game.Fight();
+        }
 
-            Battlecry battlecry = new Battlecry(pokémon.pokemon, pokémon.naam);
-
+        static Trainer CreateTrainer(int number)
+        {
+            Console.Write($"Voer de naam in van trainer {number}: ");
+            string name = Console.ReadLine();
+            return new Trainer(name);
         }
     }
 }
