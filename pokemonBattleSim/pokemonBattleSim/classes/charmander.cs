@@ -2,27 +2,10 @@
 
 namespace pokemonBattleSim.classes
 {
-    class Charmander
+    class Charmander: Pokemon
     {
-        public string Nickname { get; private set; }
-        public string Strength { get; private set; }
-        public string Weakness { get; private set; }
-
-        public Charmander(string nickname, string strength, string weakness)
+        public Charmander(string nickname) : base(nickname, "Fire", "Water", "Charmander")
         {
-            Nickname = nickname;
-            Strength = strength;
-            Weakness = weakness;
-        }
-
-        public string GetName()
-        {
-            return Nickname;
-        }
-
-        public string BattleCry()
-        {
-            return $"{Nickname} roept: CHARRRRR!";
         }
     }
 }

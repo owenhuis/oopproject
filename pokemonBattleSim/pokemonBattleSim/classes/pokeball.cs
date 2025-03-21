@@ -2,34 +2,36 @@
 {
     class Pokeball
     {
-        private Charmander charmander;
-        public bool HasCharmanderInside { get; private set; }
+        // charmander pokeball check
+        public Pokemon pokemon;
+        public bool HasPokemonInside;
 
-        public Pokeball(Charmander charmander)
+        public Pokeball(Pokemon pokemon)
         {
-            this.charmander = charmander;
-            HasCharmanderInside = true;
+            this.pokemon = pokemon;
+            HasPokemonInside = true;
         }
 
         public Charmander Open()
         {
-            if (HasCharmanderInside)
+            if (HasPokemonInside)
             {
-                HasCharmanderInside = false;
-                return charmander;
+                HasPokemonInside = false;
+                return pokemon;
             }
             return null;
         }
 
         public void Close(Charmander charmander)
         {
-            this.charmander = charmander;
-            HasCharmanderInside = true;
+            this.pokemon = charmander;
+            HasPokemonInside = true;
         }
 
         public bool HasCharmander()
         {
-            return HasCharmanderInside;
+            return HasPokemonInside;
         }
+
     }
 }

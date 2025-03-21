@@ -5,8 +5,8 @@ namespace pokemonBattleSim.classes
 {
     class Trainer
     {
-        public string Name { get; private set; }
-        public List<Pokeball> Belt { get; private set; }
+        public string Name;
+        public List<Pokeball> Belt;
 
         public Trainer(string name)
         {
@@ -14,9 +14,10 @@ namespace pokemonBattleSim.classes
             Belt = new List<Pokeball>();
 
             // Voeg 3 Pokéballs met Charmanders toe voor deze trainer
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 2; i++)
             {
-                Belt.Add(new Pokeball(new Charmander("Charmander", "Fire", "Water")));
+                Belt.Add(new Pokeball(new Charmander("charr")));
+                Belt.Add(new Pokeball(new Bulbasaur("bulba")));
             }
         }
 
@@ -45,7 +46,7 @@ namespace pokemonBattleSim.classes
                 if (!pokeball.HasCharmander())
                 {
                     pokeball.Close(charmander);
-                    Console.WriteLine($"{Name} roept {charmander.GetName()} terug in de Pokéball.");
+                    Console.WriteLine($"{Name} roept {charmander.Name} terug in de Pokéball.");
                     break;
                 }
             }

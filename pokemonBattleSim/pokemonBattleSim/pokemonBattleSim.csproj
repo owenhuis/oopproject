@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\battlecry.cs" />
+    <Compile Include="classes\Bulbasaur.cs" />
     <Compile Include="classes\charmander.cs" />
     <Compile Include="classes\Game.cs" />
     <Compile Include="classes\pokeball.cs" />
+    <Compile Include="classes\Pokemon.cs" />
+    <Compile Include="classes\squirtle.cs" />
     <Compile Include="classes\trainer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

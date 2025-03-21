@@ -8,6 +8,11 @@
             Person persoon1 = new Person("Kees", "Panda", 93);
             Person persoon2 = new Person("Hans", "Kever", 54);
 
+            persoon1.buyOVCard(OVTypes.BUSINESSOV);
+            persoon2.buyOVCard(OVTypes.STUDENTOV);
+
+
+
             Tram tram1 = new Tram(38, 2, 8);
             Tram tram2 = new Tram(44, 108, 11);
             Train trein1 = new Train(38, 2);
