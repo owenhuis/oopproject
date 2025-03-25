@@ -2,7 +2,7 @@
 {
     class Pokeball
     {
-        // charmander pokeball check
+        
         public Pokemon pokemon;
         public bool HasPokemonInside;
 
@@ -12,7 +12,7 @@
             HasPokemonInside = true;
         }
 
-        public Charmander Open()
+        public Pokemon Open()
         {
             if (HasPokemonInside)
             {
@@ -22,13 +22,13 @@
             return null;
         }
 
-        public void Close(Charmander charmander)
+        public void Close(Pokemon pokemon)
         {
-            this.pokemon = charmander;
+            this.pokemon = pokemon;
             HasPokemonInside = true;
         }
 
-        public bool HasCharmander()
+        public bool HasPokemon()
         {
             return HasPokemonInside;
         }

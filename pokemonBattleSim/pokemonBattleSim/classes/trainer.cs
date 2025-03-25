@@ -13,24 +13,18 @@ namespace pokemonBattleSim.classes
             Name = name;
             Belt = new List<Pokeball>();
 
-            // Voeg 3 Pokéballs met Charmanders toe voor deze trainer
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 1; i++)
             {
                 Belt.Add(new Pokeball(new Charmander("charr")));
                 Belt.Add(new Pokeball(new Bulbasaur("bulba")));
+                Belt.Add(new Pokeball(new Squirtle("squirt")));
             }
         }
-
-        public void TakePokeball(Pokeball pokeball)
-        {
-            Belt.Add(pokeball);
-        }
-
-        public Charmander ThrowPokeball()
+        public Pokemon ThrowPokeball()
         {
             foreach (var pokeball in Belt)
             {
-                if (pokeball.HasCharmander())
+                if (pokeball.HasPokemon())
                 {
                     Console.WriteLine($"{Name} gooit een Pokéball!");
                     return pokeball.Open();
@@ -39,14 +33,14 @@ namespace pokemonBattleSim.classes
             return null;
         }
 
-        public void ReturnPokemon(Charmander charmander)
+        public void ReturnPokemon(Pokemon pokemon)
         {
             foreach (var pokeball in Belt)
             {
-                if (!pokeball.HasCharmander())
+                if (!pokeball.HasPokemon())
                 {
-                    pokeball.Close(charmander);
-                    Console.WriteLine($"{Name} roept {charmander.Name} terug in de Pokéball.");
+                    pokeball.Close(pokemon);
+                    Console.WriteLine($"{Name} roept {pokemon.Name} terug in de Pokéball.");
                     break;
                 }
             }

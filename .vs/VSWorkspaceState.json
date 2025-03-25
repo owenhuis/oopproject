@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pokemonBattleSim",
+    "\\pokemonBattleSim\\pokemonBattleSim",
+    "\\pokemonBattleSim\\pokemonBattleSim\\classes"
   ],
-  "SelectedNode": "\\pokemonBattleSim.sln",
+  "SelectedNode": "\\pokemonBattleSim\\pokemonBattleSim\\classes\\pokeball.cs",
   "PreviewInSolutionExplorer": false
 }
