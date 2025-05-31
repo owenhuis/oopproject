@@ -12,6 +12,7 @@ namespace pokemonBattleSim
             Trainer trainer1 = CreateTrainer(1);
             Trainer trainer2 = CreateTrainer(2);
 
+
             Game game = new Game(trainer1, trainer2);
             game.Fight();
         }
@@ -22,5 +23,6 @@ namespace pokemonBattleSim
             string name = Console.ReadLine();
             return new Trainer(name);
         }
+        
     }
 }

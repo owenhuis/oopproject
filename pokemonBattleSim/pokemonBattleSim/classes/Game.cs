@@ -16,7 +16,7 @@ namespace pokemonBattleSim.classes
         {
             Console.WriteLine($"🔥 {Challenger.Name} VS {Opponent.Name}! 🔥");
 
-            for (int i = 0; i < 2; i++) // Aantal Pokéballs per trainer
+            for (int i = 0; i < 6; i++) // Aantal Pokéballs per trainer
             {
                 Pokemon pokemon1 = Challenger.ThrowPokeball();
                 if (pokemon1 != null)
@@ -34,6 +34,7 @@ namespace pokemonBattleSim.classes
                 if (pokemon2 != null) Opponent.ReturnPokemon(pokemon2);
             }
             Console.WriteLine("De strijd is voorbij! 🎉");
+            
         }
     }
 }

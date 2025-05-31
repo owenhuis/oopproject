@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml.Linq;
 
 namespace pokemonBattleSim.classes
 {
@@ -12,12 +13,21 @@ namespace pokemonBattleSim.classes
         {
             Name = name;
             Belt = new List<Pokeball>();
-
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 6; i++)
             {
-                Belt.Add(new Pokeball(new Charmander("charr")));
-                Belt.Add(new Pokeball(new Bulbasaur("bulba")));
-                Belt.Add(new Pokeball(new Squirtle("squirt")));
+                if (Belt.Count < 2)
+                {
+                    Belt.Add(new Pokeball(new Charmander("charr")));
+                }
+                else if (Belt.Count < 4 && Belt.Count >= 2)
+                {
+                    Belt.Add(new Pokeball(new Bulbasaur("bulba")));
+                }
+                else if (Belt.Count >= 4)
+                {
+                    Belt.Add(new Pokeball(new Squirtle("squirt")));
+                }
+                
             }
         }
         public Pokemon ThrowPokeball()
