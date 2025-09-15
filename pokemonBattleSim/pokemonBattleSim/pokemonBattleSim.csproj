@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\arena.cs" />
+    <Compile Include="classes\battle.cs" />
     <Compile Include="classes\battlecry.cs" />
     <Compile Include="classes\Bulbasaur.cs" />
     <Compile Include="classes\charmander.cs" />

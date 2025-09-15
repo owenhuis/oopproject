@@ -1,0 +1,15 @@
+What is inheritance?
+Inheritance is a key concept in OOP where a class (called a child or subclass) can acquire properties and behaviors (fields and methods) from another class (called a parent or superclass). This allows the child class to reuse, extend, or modify the functionality of the parent without rewriting the code. In simple terms, inheritance represents an “is-a” relationship (e.g., a Dog is a type of Animal).
+
+Why do we use inheritance?
+We use inheritance to promote code reusability, reduce duplication, and make programs easier to maintain. It allows developers to build on existing code, extend functionality, and create hierarchical relationships between classes. Inheritance also improves readability and flexibility, since changes in the parent class automatically affect its children.
+
+How do we use inheritance in our code?
+To implement inheritance, we create a parent class with common attributes and methods, and then a child class that inherits them. In many programming languages:
+
+Java uses the extends keyword.
+
+Python uses parentheses: class Dog(Animal):.
+
+C++ uses a colon class Dog : public Animal { }.
+The child can override methods of the parent or add new ones. This makes it possible to customize behavior while still keeping shared logic.

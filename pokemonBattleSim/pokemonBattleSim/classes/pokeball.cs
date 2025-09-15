@@ -21,7 +21,7 @@
             }
             return null;
         }
-
+        
         public void Close(Pokemon pokemon)
         {
             this.pokemon = pokemon;

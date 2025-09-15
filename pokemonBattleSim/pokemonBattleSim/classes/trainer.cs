@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Remoting;
 using System.Xml.Linq;
 
 namespace pokemonBattleSim.classes
@@ -8,6 +9,7 @@ namespace pokemonBattleSim.classes
     {
         public string Name;
         public List<Pokeball> Belt;
+        private Pokemon gekozen_pokemon;
 
         public Trainer(string name)
         {
@@ -30,14 +32,29 @@ namespace pokemonBattleSim.classes
                 
             }
         }
-        public Pokemon ThrowPokeball()
+        public Pokemon ThrowPokeball(bool challenger, bool opponent)
         {
-            foreach (var pokeball in Belt)
+            if (challenger == true)
             {
-                if (pokeball.HasPokemon())
+                Console.WriteLine("welke pokemon kies jij (charmander/bulbasaur/squirtle)");
+                string gekozen_pokemon = Console.ReadLine();
+            }
+            if (opponent == false)
+            {
+                List<string> pokelijst = new List<string> { "bulbasaur", "charmander", "squirtle" };
+                Random rnd = new Random();
+                int index = rnd.Next(pokelijst.Count);
+                string gekozen_pokemon = pokelijst[index];
+
+            }
+
+            foreach (Pokemon p in Belt)
+            {
+
+                if (p ==  gekozen_pokemon)
                 {
                     Console.WriteLine($"{Name} gooit een Pokéball!");
-                    return pokeball.Open();
+                    return p.Open();
                 }
             }
             return null;
@@ -50,6 +67,7 @@ namespace pokemonBattleSim.classes
                 if (!pokeball.HasPokemon())
                 {
                     pokeball.Close(pokemon);
+
                     Belt.Remove(pokeball);
                     Console.WriteLine($"{Name} roept {pokemon.Name} terug in de Pokéball.");
                     break;

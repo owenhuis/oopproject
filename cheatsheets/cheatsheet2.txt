@@ -1,0 +1,13 @@
+What is Composition?
+Composition is a design principle in object-oriented programming where a class is built by combining instances of other classes instead of inheriting from them. It is a "has-a" relationship rather than an "is-a" relationship. For example, a Car class may contain an Engine class instead of inheriting from it. Composition provides flexibility, modularity, and better code reusability.
+
+Why Do We Use Composition?
+Encapsulation & Modularity – Keeps code organized by breaking it into smaller, reusable components.
+Avoids Inheritance Issues – Prevents deep inheritance hierarchies that can make maintenance difficult.
+Improves Flexibility – Objects can be changed dynamically by replacing components without modifying the entire class.
+Enhances Code Reusability – Individual components can be reused across multiple classes.
+Promotes the SOLID Principles – Particularly Single Responsibility and Dependency Injection, making code more maintainable.
+How Do We Use Composition in Our Code?
+Create Separate Classes – Define independent classes with their own responsibilities.
+Include Objects as Fields – One class contains instances of another class as attributes.
+Use Dependency Injection – Pass required objects via constructors or setters instead of hardcoding dependencies.
