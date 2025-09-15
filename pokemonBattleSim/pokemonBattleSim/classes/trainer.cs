@@ -50,6 +50,7 @@ namespace pokemonBattleSim.classes
                 if (!pokeball.HasPokemon())
                 {
                     pokeball.Close(pokemon);
+                    Belt.Remove(pokeball);
                     Console.WriteLine($"{Name} roept {pokemon.Name} terug in de Pokéball.");
                     break;
                 }

@@ -5,3 +5,10 @@ C:\school\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\
 C:\school\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.csproj.CoreCompileInputs.cache
 C:\school\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.exe
 C:\school\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.pdb
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\bin\Debug\pokemonBattleSim.exe.config
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\bin\Debug\pokemonBattleSim.exe
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\bin\Debug\pokemonBattleSim.pdb
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.csproj.AssemblyReference.cache
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.csproj.CoreCompileInputs.cache
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.exe
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.pdb
