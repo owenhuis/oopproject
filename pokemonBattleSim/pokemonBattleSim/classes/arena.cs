@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,15 +9,16 @@ namespace pokemonBattleSim.classes
 {
     internal class Arena
     {
-        int ronde_Count = 0;
+        private int ronde_Count = 1;
         int battle_Count = 0;
-        public Arena()
+        public Arena(Trainer challenger, Trainer opponnent)
         {
-            for (int i = 0; i < ronde_Count; i++) ;
+            for (int i = 0; i < ronde_Count; i++)
             {
 
-                Battle fight(int ronde_count);
-                
+                Battle fight = new Battle(challenger, opponnent);
+                ronde_Count = fight.Fight(ronde_Count);
+
                 battle_Count++;
             }
         }

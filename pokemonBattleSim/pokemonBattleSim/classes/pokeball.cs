@@ -1,4 +1,6 @@
-﻿namespace pokemonBattleSim.classes
+﻿using System.Threading;
+
+namespace pokemonBattleSim.classes
 {
     class Pokeball
     {
@@ -24,6 +26,7 @@
         
         public void Close(Pokemon pokemon)
         {
+            Thread.Sleep(1000);
             this.pokemon = pokemon;
             HasPokemonInside = true;
         }

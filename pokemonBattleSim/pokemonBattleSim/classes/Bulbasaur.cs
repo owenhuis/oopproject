@@ -8,7 +8,7 @@ namespace pokemonBattleSim.classes
 {
     internal class Bulbasaur : Pokemon
     {
-        public Bulbasaur(string nickname) : base(nickname, "Grass", "Fire", "Bulbausaur")
+        public Bulbasaur(string nickname) : base(nickname, "Grass", "Fire", "Bulbasaur")
         {
 
         }

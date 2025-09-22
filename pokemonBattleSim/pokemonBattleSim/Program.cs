@@ -13,8 +13,8 @@ namespace pokemonBattleSim
             Trainer trainer2 = CreateTrainer(2);
 
 
-            Game game = new Game(trainer1, trainer2);
-            game.Fight();
+            Arena arena = new Arena(trainer1, trainer2);
+
         }
 
         static Trainer CreateTrainer(int number)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Remoting;
+using System.Threading;
 using System.Xml.Linq;
 
 namespace pokemonBattleSim.classes
@@ -9,7 +10,6 @@ namespace pokemonBattleSim.classes
     {
         public string Name;
         public List<Pokeball> Belt;
-        private Pokemon gekozen_pokemon;
 
         public Trainer(string name)
         {
@@ -34,41 +34,66 @@ namespace pokemonBattleSim.classes
         }
         public Pokemon ThrowPokeball(bool challenger, bool opponent)
         {
-            if (challenger == true)
-            {
-                Console.WriteLine("welke pokemon kies jij (charmander/bulbasaur/squirtle)");
-                string gekozen_pokemon = Console.ReadLine();
-            }
-            if (opponent == false)
-            {
-                List<string> pokelijst = new List<string> { "bulbasaur", "charmander", "squirtle" };
-                Random rnd = new Random();
-                int index = rnd.Next(pokelijst.Count);
-                string gekozen_pokemon = pokelijst[index];
-
-            }
-
-            foreach (Pokemon p in Belt)
-            {
-
-                if (p ==  gekozen_pokemon)
+            int ball_count = 0;
+            string gekozen_pokemon = "test";
+            while (true) {
+                if (challenger == true)
                 {
-                    Console.WriteLine($"{Name} gooit een Pokéball!");
-                    return p.Open();
+                    Console.WriteLine("welke pokemon kies jij (charmander/bulbasaur/squirtle)");
+                    gekozen_pokemon = Console.ReadLine();
                 }
+                if (opponent == true)
+                {
+                    Thread.Sleep(1000);
+                    List<string> pokelijst = new List<string> { "bulbasaur", "charmander", "squirtle" };
+                    Random rnd = new Random();
+                    int index = rnd.Next(pokelijst.Count);
+                    gekozen_pokemon = pokelijst[index];
+
+                }
+                
+                foreach (Pokeball p in Belt)
+                {
+
+
+                    if (p.HasPokemon())
+                    {
+                        Pokemon mon = p.pokemon;
+
+                        if (mon.Name.ToLower() == gekozen_pokemon.ToLower())
+                        {
+                            Console.WriteLine($"{Name} gooit een Pokéball!");
+                            return p.Open();
+                        }
+                    }
+                    ball_count++;
+
+                }
+
+                if (challenger)
+                {
+                    Console.WriteLine("deze pokemon zijn al gerbruikt kies een andere");
+                }
+                if (ball_count == 12)
+                {
+                    Console.WriteLine("1 van de trainers heeft geen pokéballs meer");
+                    return null;
+                }
+
             }
-            return null;
         }
 
-        public void ReturnPokemon(Pokemon pokemon)
+        public void ReturnPokemon(Pokemon pokemon, bool keep)
         {
             foreach (var pokeball in Belt)
             {
                 if (!pokeball.HasPokemon())
                 {
                     pokeball.Close(pokemon);
-
-                    Belt.Remove(pokeball);
+                    if (!keep)
+                    {
+                        Belt.Remove(pokeball);
+                    }
                     Console.WriteLine($"{Name} roept {pokemon.Name} terug in de Pokéball.");
                     break;
                 }

@@ -12,3 +12,4 @@ C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\ob
 C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.csproj.CoreCompileInputs.cache
 C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.exe
 C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.pdb
+C:\school_davinci\code\bovenbouw\oopproject\pokemonBattleSim\pokemonBattleSim\obj\Debug\pokemonBattleSim.exe.config

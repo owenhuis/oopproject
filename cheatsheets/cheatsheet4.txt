@@ -1,0 +1,31 @@
+What are static variables and methods?
+Static variables and methods belong to the class itself rather than an instance (object) of the class. A static variable keeps its value across all objects, meaning it is shared among all instances. A static method can be called directly from the class without creating an object. For example, Math.Sqrt() is a static method. Static members exist only once in memory, not per object, which makes them efficient for shared data or utility functions. They cannot access non-static (instance) members directly since they don’t operate on a specific object.
+
+Why do we use static variables and methods?
+We use static variables when we want to share a value across all instances of a class, like a counter that tracks how many objects were created. Static methods are useful when an operation doesn’t depend on instance data, such as utility/helper functions or global configuration. They improve memory usage because only one copy exists. They also make the code cleaner when an action logically belongs to the class itself instead of an object. However, overusing them can reduce flexibility and make testing harder, so they should be used thoughtfully.
+
+How do we use static variables and methods in our code (C#)?
+In C#, we declare static variables and methods with the static keyword. For example:
+
+public class Counter
+{
+    public static int count = 0; // static variable
+
+    public Counter()
+    {
+        count++;
+    }
+
+    public static void ShowCount() // static method
+    {
+        Console.WriteLine("Total objects created: " + count);
+    }
+}
+
+// Usage
+Counter obj1 = new Counter();
+Counter obj2 = new Counter();
+Counter.ShowCount(); // Output: Total objects created: 2
+
+
+Static members are accessed using the class name, not through objects.

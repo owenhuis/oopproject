@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pokemonBattleSim.classes
 {
-    internal class Pokemon
+    public class Pokemon
     {
         public string Name;
         public string Nickname;

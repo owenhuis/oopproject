@@ -3,23 +3,11 @@
   "WorkspaceRootPath": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\pokeball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\pokeball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|c:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonbattlesim\\pokemonbattlesim\\classes\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|c:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonbattlesim\\pokemonbattlesim\\classes\\arena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\arena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|c:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonbattlesim\\pokemonbattlesim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,12 +19,24 @@
       "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\charmander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\squirtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\squirtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\arena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\arena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|c:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonbattlesim\\pokemonbattlesim\\classes\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\pokeball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\pokeball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\bulbasaur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\bulbasaur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonbattlesim\\classes\\squirtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D0F669-ADF7-4487-BD66-B36F3E0BBA45}|pokemonBattleSim\\pokemonBattleSim.csproj|solutionrelative:pokemonbattlesim\\classes\\squirtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,13 +50,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\Program.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\Program.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\Program.cs",
               "RelativeToolTip": "pokemonBattleSim\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T12:11:05.824Z",
               "IsPinned": true,
@@ -64,85 +64,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "trainer.cs",
+              "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\trainer.cs",
+              "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\trainer.cs",
+              "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\trainer.cs",
+              "RelativeToolTip": "pokemonBattleSim\\classes\\trainer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:11:04.743Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "arena.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\arena.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\arena.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\arena.cs",
               "RelativeToolTip": "pokemonBattleSim\\classes\\arena.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T08:09:39.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "battle.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\battle.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\battle.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\battle.cs",
               "RelativeToolTip": "pokemonBattleSim\\classes\\battle.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwC4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T08:09:58.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "trainer.cs",
-              "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\trainer.cs",
-              "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\trainer.cs",
-              "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\trainer.cs",
-              "RelativeToolTip": "pokemonBattleSim\\classes\\trainer.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:11:04.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "pokeball.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\pokeball.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\pokeball.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\pokeball.cs",
               "RelativeToolTip": "pokemonBattleSim\\classes\\pokeball.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T12:11:02.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\Pokemon.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\Pokemon.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\Pokemon.cs",
               "RelativeToolTip": "pokemonBattleSim\\classes\\Pokemon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T12:11:02.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "charmander.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\charmander.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\charmander.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\charmander.cs",
               "RelativeToolTip": "pokemonBattleSim\\classes\\charmander.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T12:11:00.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "squirtle.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\squirtle.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\squirtle.cs",
@@ -155,15 +156,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Bulbasaur.cs",
               "DocumentMoniker": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\Bulbasaur.cs",
               "RelativeDocumentMoniker": "pokemonBattleSim\\classes\\Bulbasaur.cs",
               "ToolTip": "C:\\school_davinci\\code\\bovenbouw\\oopproject\\pokemonBattleSim\\pokemonBattleSim\\classes\\Bulbasaur.cs",
               "RelativeToolTip": "pokemonBattleSim\\classes\\Bulbasaur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:10:59.729Z"
+              "WhenOpened": "2025-09-11T12:10:59.729Z",
+              "EditorCaption": ""
             }
           ]
         }
