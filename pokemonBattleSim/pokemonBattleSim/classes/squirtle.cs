@@ -8,7 +8,7 @@ namespace pokemonBattleSim.classes
 {
     internal class Squirtle : Pokemon
     {
-        public Squirtle(string nickname) : base(nickname, "Water", "Grass", "Squirtle")
+        public Squirtle(string nickname) : base(nickname, type.water, type.grass, "Squirtle")
         {
 
         }

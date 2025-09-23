@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace pokemonBattleSim.classes
 {
+    public enum type { 
+        grass,
+        fire,
+        water
+        }
     public class Pokemon
     {
-        public string Name;
-        public string Nickname;
-        public string Strength;
-        public string Weakness;
+        private string Name { get; }
+        private string Nickname { get; set; }
+        private type Strength;
+        private type Weakness;
 
-        public Pokemon(string nickname, string strength, string weakness, string name)
+        public Pokemon(string nickname, type strength, type weakness, string name)
         {
             Nickname = nickname;
             Strength = strength;

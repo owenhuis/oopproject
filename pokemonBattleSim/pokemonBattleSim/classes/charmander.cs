@@ -4,7 +4,7 @@ namespace pokemonBattleSim.classes
 {
     class Charmander: Pokemon
     {
-        public Charmander(string nickname) : base(nickname, "Fire", "Water", "Charmander")
+        public Charmander(string nickname) : base(nickname, type.fire, type.water, "Charmander")
         {
         }
     }
