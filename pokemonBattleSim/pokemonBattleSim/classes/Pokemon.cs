@@ -13,10 +13,10 @@ namespace pokemonBattleSim.classes
         }
     public class Pokemon
     {
-        private string Name { get; }
-        private string Nickname { get; set; }
-        private type Strength;
-        private type Weakness;
+        public string Name { get; }
+        public string Nickname { get; }
+        public type Strength { get; }
+        public type Weakness { get; }
 
         public Pokemon(string nickname, type strength, type weakness, string name)
         {

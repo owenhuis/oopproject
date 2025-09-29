@@ -1,0 +1,8 @@
+Encapsulation
+Encapsulation is one of the four main principles of Object-Oriented Programming (OOP). It refers to the concept of “wrapping” data (variables, also called fields or attributes) and methods (functions that operate on the data) into a single unit, usually a class. It also means restricting direct access to some of an object’s components, which helps protect the integrity of the data and hides implementation details from outside users.
+
+Why we use Encapsulation
+We use encapsulation to achieve data hiding, improve code security, and reduce unintended interference with internal object states. It allows us to control how data is accessed and modified by providing getters and setters instead of exposing variables directly. This makes programs more maintainable, modular, and less prone to bugs, since the internal logic can be changed without affecting other parts of the code that use the object.
+
+How to use Encapsulation in Code
+In practice, encapsulation is applied by declaring variables as private or protected and exposing only necessary operations through public methods. For example, in Java, you can create private fields and then define public getter and setter methods. In Python, although everything is public by default, you can use naming conventions like _variable or __variable to indicate restricted access and define property methods for controlled interaction. This ensures that object data is always used in safe, controlled ways.

@@ -8,14 +8,15 @@ namespace pokemonBattleSim.classes
 {
     class Trainer
     {
-        public string Name;
-        public List<Pokeball> Belt;
+        public string Name { get; }
+        public List<Pokeball> Belt { get; }
+        public int max_pokeballs = 6;
 
         public Trainer(string name)
         {
             Name = name;
             Belt = new List<Pokeball>();
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < max_pokeballs; i++)
             {
                 if (Belt.Count < 2)
                 {
@@ -46,8 +47,8 @@ namespace pokemonBattleSim.classes
                 {
                     Thread.Sleep(1000);
                     List<string> pokelijst = new List<string> { "bulbasaur", "charmander", "squirtle" };
-                    Random rnd = new Random();
-                    int index = rnd.Next(pokelijst.Count);
+                    Random rndm = new Random();
+                    int index = rndm.Next(pokelijst.Count);
                     gekozen_pokemon = pokelijst[index];
 
                 }

@@ -9,8 +9,8 @@ namespace pokemonBattleSim.classes
 {
     internal class Arena
     {
-        private int ronde_Count = 1;
-        int battle_Count = 0;
+        public int ronde_Count = 1;
+        public int battle_Count = 0;
         public Arena(Trainer challenger, Trainer opponnent)
         {
             for (int i = 0; i < ronde_Count; i++)

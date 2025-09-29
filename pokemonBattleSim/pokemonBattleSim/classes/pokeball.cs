@@ -5,8 +5,8 @@ namespace pokemonBattleSim.classes
     class Pokeball
     {
         
-        public Pokemon pokemon;
-        public bool HasPokemonInside;
+        public Pokemon pokemon { get; private set; }
+        public bool HasPokemonInside { get; private set; }
 
         public Pokeball(Pokemon pokemon)
         {
